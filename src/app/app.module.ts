@@ -5,9 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { LatexComponent } from './latex/latex.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LatexComponent
   ],
   imports: [
     BrowserModule,
